@@ -1,11 +1,11 @@
 pipeline {
-/* Variables de registry y credenciales para publicar la imagen de docker  
+/* Variables de registry y credenciales para publicar la imagen de docker */ 
    environment {
 	registry = "vgatica/tw"
 	registryCredential = 'dockerhub'
 	dockerImage = ''
    }	
-*/
+
   agent any    
   stages {
         
